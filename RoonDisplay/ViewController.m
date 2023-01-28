@@ -16,7 +16,7 @@
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     // SET YOUR ROON WEB DISPLAY URL HERE
-    [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: @"http://192.168.2.239:9100/display/"]]];
+    [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: @"http://roon.zpath.de:9330/display/"]]];
 }
 
 
